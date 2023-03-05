@@ -5,7 +5,7 @@ import subprocess
 # This gets more and more out of sync.
 
 IP = "10.0.1.105"  # IP of camera
-control = lumix.CameraControl(IP)
+control = lumix.Camera(IP)
 UDP_PORT = 5111
 
 
